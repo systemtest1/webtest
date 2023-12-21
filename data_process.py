@@ -43,13 +43,13 @@ def preparewebpage(dir, path):
 
 
         
-preparewebpage("web/1/", "web/1/1622 - Wikipedia_prompt0.html")
-preparewebpage("web/2/", "web/2/The New York Times - Breaking News, US News, World News and Videos_prompt0.html")
-preparewebpage("web/3/", "web/3/The Lambda Calculus (Stanford Encyclopedia of Philosophy)_prompt0.html")
-preparewebpage("web/4/", "web/4/Hugging Face – The AI community building the future_prompt0.html")
-preparewebpage("web/5/", "web/5/Reddit - Dive into anything_prompt0.html")
-preparewebpage("web/6/", "web/6/CSRankings_ Computer Science Rankings_prompt0.html")
+preparewebpage("web/1/", "web/1/1622 - Wikipedia.html")
+preparewebpage("web/2/", "web/2/The New York Times - Breaking News, US News, World News and Videos.html")
+preparewebpage("web/3/", "web/3/The Lambda Calculus (Stanford Encyclopedia of Philosophy).html")
+preparewebpage("web/4/", "web/4/Hugging Face – The AI community building the future..html")
+preparewebpage("web/5/", "web/5/Reddit - Dive into anything.html")
+preparewebpage("web/6/", "web/6/CSRankings_ Computer Science Rankings.html")
 preparewebpage("web/7/", "web/7/wm2.html")
 preparewebpage("web/8/", "web/8/Google.html")
-preparewebpage("web/9/", "web/9/Newest Questions - Stack Overflow_prompt0.html")
+preparewebpage("web/9/", "web/9/Newest Questions - Stack Overflow.html")
 preparewebpage("web/10/", "web/10/index.html")
