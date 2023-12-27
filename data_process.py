@@ -35,21 +35,32 @@ def preparewebpage(dir, path):
             break
 
     for idx, item in enumerate(data):
-        real_prompt = template.format(item, item, item)
-        lines[target] = "<p style=\"font-size:0.000001px\">" + real_prompt + "</p>" + "\n"
-    
-        with open(f"{dir}{name}_prompt{idx}.html", "w+") as f:
-            f.writelines(lines)
+        if idx < 25: 
+            real_prompt = template.format(item, item, item)
+            lines[target] = "<p style=\"font-size:0.000001px\">" + real_prompt + "</p>" + "\n"
+        
+            with open(f"{dir}{name}_prompt{idx}.html", "w+") as f:
+                f.writelines(lines)
 
 
         
-preparewebpage("web/1/", "web/1/1622 - Wikipedia.html")
-preparewebpage("web/2/", "web/2/The New York Times - Breaking News, US News, World News and Videos.html")
-preparewebpage("web/3/", "web/3/The Lambda Calculus (Stanford Encyclopedia of Philosophy).html")
-preparewebpage("web/4/", "web/4/Hugging Face – The AI community building the future..html")
-preparewebpage("web/5/", "web/5/Reddit - Dive into anything.html")
-preparewebpage("web/6/", "web/6/CSRankings_ Computer Science Rankings.html")
-preparewebpage("web/7/", "web/7/wm2.html")
-preparewebpage("web/8/", "web/8/Google.html")
-preparewebpage("web/9/", "web/9/Newest Questions - Stack Overflow.html")
-preparewebpage("web/10/", "web/10/index.html")
+# preparewebpage("web/1/", "web/1/1622 - Wikipedia.html")
+# preparewebpage("web/2/", "web/2/The New York Times - Breaking News, US News, World News and Videos.html")
+# preparewebpage("web/3/", "web/3/The Lambda Calculus (Stanford Encyclopedia of Philosophy).html")
+# preparewebpage("web/4/", "web/4/Hugging Face – The AI community building the future..html")
+# preparewebpage("web/5/", "web/5/Reddit - Dive into anything.html")
+# preparewebpage("web/6/", "web/6/CSRankings_ Computer Science Rankings.html")
+# preparewebpage("web/7/", "web/7/wm2.html")
+# preparewebpage("web/8/", "web/8/Google.html")
+# preparewebpage("web/9/", "web/9/Newest Questions - Stack Overflow.html")
+# preparewebpage("web/10/", "web/10/index.html")
+
+
+preparewebpage("linkreader/1/", "linkreader/1/1622 - Wikipedia.html")
+preparewebpage("linkreader/2/", "linkreader/2/The New York Times - Breaking News, US News, World News and Videos.html")
+preparewebpage("linkreader/4/", "linkreader/4/Hugging Face – The AI community building the future..html")
+preparewebpage("linkreader/5/", "linkreader/5/Reddit - Dive into anything.html")
+preparewebpage("linkreader/7/", "linkreader/7/wm2.html")
+preparewebpage("linkreader/8/", "linkreader/8/Google.html")
+preparewebpage("linkreader/9/", "linkreader/9/Newest Questions - Stack Overflow.html")
+preparewebpage("linkreader/10/", "linkreader/10/index.html")
